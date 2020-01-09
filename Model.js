@@ -140,8 +140,8 @@ async function predictModel(xv){
 
 const test = async()=>{
   temp = await createData('data2.csv');
-  console.log(temp.dac);
-  console.log(temp.label);
+  //console.log(temp.dac);
+  //console.log(temp.label);
   x = tf.tensor2d(temp.dac);
   x.print();
   //x = tf.reshape(x,[2,-1])
